@@ -36,23 +36,3 @@ NASA is credited as the source; no NASA endorsement is implied.
 Repository: https://github.com/V0Lc4No112/WEBT1-assignment1
 Site address: https://v0lc4no112.github.io/WEBT1-assignment1/
 Publish from the main branch, root directory, in Settings > Pages.
-
-## Short defense notes
-
-- header, nav, main and footer describe the role of each page area.
-- alt text describes images; figcaption supplies the visible credit/context.
-- th and scope connect table headings to their rows or columns.
-- colspan="2" joins two cells in the table footer.
-- for and id connect each form label to its control.
-- required, type="email", min/max and minlength use browser validation.
-- The radio inputs share a name so only one choice can be selected.
-- Element selectors affect tags, class selectors are reusable, and #intro
-  styles one unique introductory paragraph.
-- px is used for borders and maximum width; % gives fluid widths; rem scales
-  text and spacing with the root font; em scales control spacing with its font.
-- margin is outside a border; padding is inside it.
-- A hover effect helps mouse users; a focus outline helps keyboard users.
-
-Before the defense, read each file and practice changing a heading, a CSS
-spacing value and one table row. Review the report's learning conclusion and
-adapt it to your own understanding before submission.
