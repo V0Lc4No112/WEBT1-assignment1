@@ -41,5 +41,7 @@ NASA is credited as the source; no NASA endorsement is implied.
 ## GitHub Pages
 
 Repository: https://github.com/V0Lc4No112/WEBT1-assignment1
+
 Site address: https://v0lc4no112.github.io/WEBT1-assignment1/
+
 Publish from the main branch, root directory, in Settings > Pages.
