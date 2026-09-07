@@ -22,12 +22,19 @@ group; only that non-personal preference appears in the query string.
 ## Sources and credits
 
 Facts: https://www.nasa.gov/specials/apollo50th/missions.html
+
 Apollo 11: https://www.nasa.gov/missions/apollo/apollo-11/apollo-11-mission-overview/
+
 Landing quotation: https://www.nasa.gov/history/alsj/a11/a11.landing.html
+
 Photos: https://www.nasa.gov/wp-content/uploads/static/history/ap11ann/kippsphotos/apollo.html
+
 aldrin.jpg: NASA / Neil Armstrong, AS11-40-5903.
+
 launch.jpg: NASA, S69-39526.
+
 Audio: https://www.nasa.gov/historical-sounds/
+
 Media use: https://www.nasa.gov/nasa-brand-center/images-and-media/
 NASA is credited as the source; no NASA endorsement is implied.
 
