@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Space Notes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <p class="site-name">Space Notes</p>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">Apollo 11</a>
+      <a class="active" aria-current="page" href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Contact</h1>
+    <p>Suggest a space topic or share a question. This practice form checks your entries in the browser; messages are not sent or saved. Fields marked * are required.</p>
+    <form action="contact.html#form-note" method="get">
+      <fieldset>
+        <legend>Your message</legend>
+        <label for="visitor-name">Name *</label>
+        <input type="text" id="visitor-name" required maxlength="60" autocomplete="name" placeholder="Your name">
+        <label for="visitor-email">Email *</label>
+        <input type="email" id="visitor-email" required autocomplete="email" placeholder="you@example.com">
+        <label for="missions">How many Apollo missions have you read about?</label>
+        <input type="number" id="missions" min="0" max="17" value="0">
+        <label for="reading-date">When did you last read about space?</label>
+        <input type="date" id="reading-date">
+        <fieldset class="radio-group">
+          <legend>What interests you most?</legend>
+          <label class="choice" for="topic-moon"><input type="radio" id="topic-moon" name="topic" value="moon" checked> The Moon</label>
+          <label class="choice" for="topic-rockets"><input type="radio" id="topic-rockets" name="topic" value="rockets"> Rockets</label>
+          <label class="choice" for="topic-astronauts"><input type="radio" id="topic-astronauts" name="topic" value="astronauts"> Astronauts</label>
+        </fieldset>
+        <label for="message">Message *</label>
+        <textarea id="message" rows="5" required minlength="10" maxlength="1000" placeholder="Write at least 10 characters."></textarea>
+        <label class="choice" for="demo-check"><input type="checkbox" id="demo-check" required> I understand this is a practice form. *</label>
+        <button type="submit">Check my message</button>
+      </fieldset>
+    </form>
+    <p id="form-note">After a valid submission, this page reloads here. The form has no message delivery service.</p>
+  </main>
+  <footer><p>Space Notes | HTML &amp; CSS assignment. Facts and photographs: <a href="https://www.nasa.gov/the-apollo-program/">NASA</a>.</p></footer>
+</body>
+</html>
